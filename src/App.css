@@ -1,0 +1,99 @@
+.Todo-list-container{
+  margin: 3rem;
+  display : flex;
+  justify-content: center;
+  margin-left: 35%;
+  text-align: center;
+  align-items: flex-start;
+  width: 50rem;
+  border-radius: 0rem;
+  min-height: 70rem;
+  background-color: rgb(140, 207, 168);
+  box-shadow: 6px 12px 20px seagreen;
+  border-radius: 2rem;
+
+}
+
+.header h1{
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+  margin: 10px 0;
+  font-size: 5.5rem;
+}
+
+.todo-form {
+  
+  display : flex;
+  width : 30%;
+  margin-top: 0rem;
+  font-size: 2.5rem;
+  gap : 0rem;
+  color : rgb(238, 230, 230);
+}
+
+.todo-form input {
+  border :1px solid black;
+  box-shadow: 0.5rem 0.5rem 1rem black;
+  font-size: 3rem;
+  padding: 1.5rem;
+  margin: 1rem;
+  color: white;
+  border-radius: 1rem;
+  background-color: black;
+}
+
+.todo-form button {
+  border : 1px solid white;
+  border-radius: 1.5rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgb(187, 226, 205);
+  background-color : white;
+  padding: 2rem;
+  cursor : pointer;
+  height :1%;
+  font-weight: 500;
+  font-size: 3rem;
+
+}
+
+.todo-form button:hover{
+background-color: rgb(140, 207, 168);
+color: white;
+font-weight: 600;
+}
+
+.task-div{
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  font-size: 8rem;
+  color:black;
+  border: 1px solid whitesmoke;
+  justify-content: space-between;
+  box-shadow: 0.5rem 0.5rem 1rem rgb(136, 155, 144);
+  align-items: center;
+  border-radius: 2rem;
+  margin : 2rem;
+
+}
+
+.todo-text{
+  font-size: 3.2rem;
+  border : 1px white;
+}
+
+.icons{
+  display: flex;
+  gap: 0.5rem;
+   color: black;
+  font-size: 3.5rem;
+}
+
+.complete {
+  text-decoration-style: solid;
+    text-decoration: line-through;
+    color:black;
+    text-decoration-color: rgb(230, 104, 104);
+    opacity :0.8;
+
+}
