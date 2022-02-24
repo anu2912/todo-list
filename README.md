@@ -1,3 +1,10 @@
+Deployed App : https://todo-list29-anu2912.vercel.app/
+
+Preview :
+
+![todo-list](https://user-images.githubusercontent.com/68178931/155446427-b2313be5-67c8-48ef-a7fa-3f2b78f76ce1.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
